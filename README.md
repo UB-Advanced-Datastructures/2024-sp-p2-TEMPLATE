@@ -2,9 +2,9 @@
 
 **Deadline**: Sunday, March 10; 11:59 PM
 
-**Accept Assignment**: TBD
+**Accept Assignment**: https://classroom.github.com/a/gd95nzgc
 
-**Submit Assignment**: TBD
+**Submit Assignment**: https://autolab.cse.buffalo.edu/courses/cse410-s24/assessments/P1-B-Trees
 
 In this assignment, you will implement an on-disk B+Tree.
 
@@ -19,10 +19,10 @@ You should expect to spend approximately 20-30 hours on this assignment.  Plan a
 
 To complete this assignment, you should:
 
-1. Accept this assignment through [GitHub Classroom]().
+1. Accept this assignment through [GitHub Classroom](https://classroom.github.com/a/gd95nzgc).
 2. Modify the file `src/bplus_tree.rs`, implementing the functions labeled `todo!()`.
 3. Commit your changes and push them to Github.
-4. Go to [Autolab](), select your repository, acknowledge the course AI Policy, and click Submit.
+4. Go to [Autolab](https://autolab.cse.buffalo.edu/courses/cse410-s24/assessments/P1-B-Trees), select your repository, acknowledge the course AI Policy, and click Submit.
 
 You may repeat steps 2-4 as many times as desired.  You may also modify any of the files in the `page` module.
 
@@ -197,5 +197,7 @@ The `put` and `delete` methods also benefit from being broken down into smaller 
 ----
 
 ## Additional Notes
-In addition to `src/bplus_tree.rs`, you may modify any of the existing files in `src/mod`.  You may not add new crates without permission.
 
+- In addition to `src/bplus_tree.rs`, you may modify any of the existing files in `src/mod`.  
+- You may modify the structure of the files and page layouts, as long as you pass the provided test cases.
+- You may **not** add new crates without permission.
