@@ -153,7 +153,6 @@ impl BPlusTree
   /// - Have an O(1) runtime 
   pub fn put_page<T: Page>(&mut self, ptr: PagePointer, page: &T) -> BPlusResult<()>
   {
-    // SNIP ALT:todo!()
     self.file.seek(seek_addr(ptr))?;
     page.write(&mut self.file)
   }
