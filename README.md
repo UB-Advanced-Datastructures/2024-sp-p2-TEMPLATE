@@ -1,4 +1,4 @@
-# P1 - Binary Search (On Disk)
+# P2 - B+ Tree
 
 **Deadline**: Sunday, March 10; 11:59 PM
 
